@@ -1,0 +1,44 @@
+.dashboard-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dashboard-count {
+  margin-bottom: 20px;
+  /* font-weight: bold; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-header p {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.dashboard-dropdowns {
+  display: flex;
+}
+
+.dashboard-dropdowns>* {
+  margin-right: 10px;
+}
+
+.count {
+  display: flex;
+  align-items: center;
+}
+
+.count img{
+  margin-right: 5px;
+}
